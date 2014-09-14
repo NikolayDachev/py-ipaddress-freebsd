@@ -25,7 +25,7 @@ X
 XMAINTAINER=	phihag@phihag.de
 XCOMMENT= 	Python 3.3's ipaddress for Python 2.6 and 2.7
 X
-XLICENSE=	MIT
+XLICENSE=	PSF
 X
 XUSES=		python
 XUSE_PYTHON=	distutils autoplist

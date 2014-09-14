@@ -9,7 +9,7 @@ PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 MAINTAINER=	phihag@phihag.de
 COMMENT= 	Python 3.3's ipaddress for Python 2.6 and 2.7
 
-LICENSE=	MIT
+LICENSE=	PSF
 
 USES=		python
 USE_PYTHON=	distutils autoplist
