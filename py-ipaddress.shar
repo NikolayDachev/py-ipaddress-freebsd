@@ -1,0 +1,49 @@
+# This is a shell archive.  Save it in a file, remove anything before
+# this line, and then unpack it by entering "sh file".  Note, it may
+# create directories; files and directories will be owned by you and
+# have default permissions.
+#
+# This archive contains:
+#
+#	py-ipaddress
+#	py-ipaddress/Makefile
+#	py-ipaddress/distinfo
+#	py-ipaddress/pkg-descr
+#
+echo c - py-ipaddress
+mkdir -p py-ipaddress > /dev/null 2>&1
+echo x - py-ipaddress/Makefile
+sed 's/^X//' >py-ipaddress/Makefile << 'f8fb49bc876ff1674a72569a422e5744'
+X# $FreeBSD$
+X
+XPORTNAME= ipaddress
+XPORTVERSION= 1.0.6
+XCATEGORIES= net python
+X
+XMASTER_SITES=	CHEESESHOP
+XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
+X
+XMAINTAINER=	phihag@phihag.de
+XCOMMENT=	Python 3.3's ipaddress for Python 2.6 and 2.7.
+X
+XLICENSE=	MIT
+X
+XUSES=		python
+XUSE_PYTHON=	distutils autoplist
+X
+X.include <bsd.port.mk>
+X
+f8fb49bc876ff1674a72569a422e5744
+echo x - py-ipaddress/distinfo
+sed 's/^X//' >py-ipaddress/distinfo << '467ee1ec33a4f55112c751c5380f1656'
+XSHA256 (ipaddress-1.0.6.tar.gz) = b1b2f8b915b1ff0314301f5aaa9635e508ae2a16e8538812a2fd5dd2b7939d8d
+XSIZE (ipaddress-1.0.6.tar.gz) = 15091
+467ee1ec33a4f55112c751c5380f1656
+echo x - py-ipaddress/pkg-descr
+sed 's/^X//' >py-ipaddress/pkg-descr << '6f2d43197511ccd02dc1ac1cfe0347db'
+XPython 3.3's ipaddress for Python 2.6 and 2.7.
+X
+XNote that you must pass in unicode objects when constructing from a character representation!
+6f2d43197511ccd02dc1ac1cfe0347db
+exit
+
