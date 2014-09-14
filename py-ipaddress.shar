@@ -22,7 +22,7 @@ XCATEGORIES= net python
 XMASTER_SITES=	CHEESESHOP
 XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 X
-XMAINTAINER=	phihag@phihag.de
+XMAINTAINER=	freebsd@dachev.info
 XCOMMENT= 	Python 3.3's ipaddress for Python 2.6 and 2.7
 X
 XLICENSE=	PSF
