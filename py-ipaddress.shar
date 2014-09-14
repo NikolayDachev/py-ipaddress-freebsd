@@ -19,12 +19,11 @@ X
 XPORTNAME= ipaddress
 XPORTVERSION= 1.0.6
 XCATEGORIES= net python
-X
 XMASTER_SITES=	CHEESESHOP
 XPKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 X
 XMAINTAINER=	phihag@phihag.de
-XCOMMENT=	Python 3.3's ipaddress for Python 2.6 and 2.7.
+XCOMMENT= 	Python 3.3's ipaddress for Python 2.6 and 2.7
 X
 XLICENSE=	MIT
 X
@@ -32,7 +31,6 @@ XUSES=		python
 XUSE_PYTHON=	distutils autoplist
 X
 X.include <bsd.port.mk>
-X
 f8fb49bc876ff1674a72569a422e5744
 echo x - py-ipaddress/distinfo
 sed 's/^X//' >py-ipaddress/distinfo << '467ee1ec33a4f55112c751c5380f1656'
@@ -43,7 +41,8 @@ echo x - py-ipaddress/pkg-descr
 sed 's/^X//' >py-ipaddress/pkg-descr << '6f2d43197511ccd02dc1ac1cfe0347db'
 XPython 3.3's ipaddress for Python 2.6 and 2.7.
 X
-XNote that you must pass in unicode objects when constructing from a character representation!
+XNote that you must pass in unicode objects when constructing
+Xfrom a character representation!
 6f2d43197511ccd02dc1ac1cfe0347db
 exit
 
